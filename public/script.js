@@ -11,6 +11,7 @@ let loadMore = document.getElementById('loadMore');
 let data = localStorage.getItem("songs")
 
 
+
 // Declaring the variables
 let songs = {};
 let player;
@@ -25,7 +26,7 @@ if (data) {
     songs = {}
 }
 // Initializing the API key
-let apiKey = "AIzaSyB1WHDfoG_jW2hn6z-DGGGuegVc-ksSiyk"
+let apiKey = "Your Api Key";
 
 // Initializing the player
 const { Player } = window.Shikwasa

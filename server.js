@@ -28,12 +28,7 @@ app.post('/download', (req, res) => {
         format: 'mp3',
         filter: 'audioonly',
     }).pipe(res);
-    // download file and save to server
-    // ytdl(url, {
-    //     format: 'mp3',
-    //     filter: 'audioonly',
-    // }).pipe(fs.createWriteStream(`./public/songs/${filename}`));
-    
+
 })
 
 
